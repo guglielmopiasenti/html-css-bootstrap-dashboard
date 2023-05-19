@@ -3,13 +3,41 @@
     --my-jumbo-bg: #3672E8;
     --my-graph-c: #3E76D3;
 }
+
+
+.debug {
+    border: 1px dashed red;
+}
+
+
+
+/** Main CSS */
 header {
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
+    height: 100px;
 
     /* todo remove */
-    height: 100px;
     border: 1px dashed green;
+}
+.page-wrapper {
+    height: calc(100vh - 100px);
+    overflow: auto;
+    width: 100%;
+    
+}
+.sidebar {
+    width: 70px;
+    height: calc(100vh - 100px);
+    border: 1px dashed blue;
+}
+.boolean-content {
+
+}
+.col {
+    border: 1px dashed blue;
+}
+
+
+/* todo remove */
+.row {
+    border: 1px dashed red;
 }
