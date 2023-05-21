@@ -2,6 +2,7 @@
 :root {
     --my-jumbo-bg: #3672E8;
     --my-graph-c: #3E76D3;
+    --my-sidebar: #041E34;
 }
 
 
@@ -28,6 +29,8 @@ header {
     width: 70px;
     height: calc(100vh - 100px);
     border: 1px dashed blue;
+    background-image: url(img/sidebar-bg.png);
+    background-color: var(--my-sidebar);
 }
 .boolean-content {
 
