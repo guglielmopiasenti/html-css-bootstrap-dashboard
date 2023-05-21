@@ -13,18 +13,19 @@
 
 
 /** Main CSS */
-header {
-    height: 100px;
 
+
+/* Header */
+
+header {
+    
     /* todo remove */
+    /* height: 100px; */
     border: 1px dashed green;
 }
-.page-wrapper {
-    height: calc(100vh - 100px);
-    overflow: auto;
-    width: 100%;
-    
-}
+
+/* sidebar */
+
 .sidebar {
     max-width: 150px;
     height: calc(100vh - 100px);
@@ -32,6 +33,19 @@ header {
     background-image: url(img/sidebar-bg.png);
     background-color: var(--my-sidebar);
 }
+
+/** Main content */
+
+/* Content Navbar */
+.page-wrapper {
+    height: calc(100vh - 100px);
+    overflow: auto;
+    width: 100%;
+    
+}
+
+
+/* Boolean webapp content */
 .boolean-content {
 
 }
