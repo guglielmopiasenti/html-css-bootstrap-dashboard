@@ -22,14 +22,15 @@
           <img class="d-none d-lg-inline" src="img/logo.svg" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
         </a>
         <form class="d-flex flex-grow-1" role="search">
-              <i class="fa-solid fa-magnifying-glass align-self-center"></i>
+            <i class="fa-solid fa-magnifying-glass align-self-center"></i>
             <input class="form-control me-2  my-search-bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+
           </form>
           <div class="nav-symbols d-flex gap-3">
-              <i class="fa-solid fa-list d-none d-lg-inline"></i>
-              <i class="fa-solid fa-circle-question d-none d-lg-inline"></i>
-              <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i>
-              <i class="fa-solid fa-bell" style="color: #f58f00;"></i>
+            <i class="fa-solid fa-list d-none d-lg-inline"></i>
+            <i class="fa-solid fa-circle-question d-none d-lg-inline"></i>
+            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i>
+            <i class="fa-solid fa-bell" style="color: #f58f00;"></i>
           </div>
 
       </div>
@@ -42,36 +43,47 @@
     <!-- Sidebar -->
 
     <main class="d-flex">
-        <div class="sidebar d-flex flex-grow-1 flex-column justify-content-between align-items-center p-4 text-white text-center">
-            <div class="row d-flex flex-column gap-2">
-                <div class="col">
-                    <i class="fa-solid fa-house"></i>
-                    <div class="d-none d-lg-inline">Home</div>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <div class="d-none d-lg-inline">Stats</div>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-signal"></i>
-                    <div class="d-none d-lg-inline">Signals</div>
-                </div>
+      <div class="sidebar d-flex flex-grow-1 flex-column justify-content-between align-items-center p-4 text-white text-center">
+        <div class="row d-flex flex-column gap-2">
+            <div class="col">
+                <i class="fa-solid fa-house"></i>
+                <div class="d-none d-lg-inline">Home</div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <i class="fa-solid fa-gear"></i>
-                    <div class="d-none d-lg-inline">Settings</div>
-                </div>
+            <div class="col">
+                <i class="fa-solid fa-chart-simple"></i>
+                <div class="d-none d-lg-inline">Stats</div>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-signal"></i>
+                <div class="d-none d-lg-inline">Signals</div>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <i class="fa-solid fa-gear"></i>
+                <div class="d-none d-lg-inline">Settings</div>
+            </div>
+        </div>
+      </div>
 
         <!-- * Main Content -->
         
         <!-- Content Navbar -->
 
-        <div class="boolean-content page-wrapper flex-grow-1 container-fluid debug">
+        <div class="boolean-content page-wrapper container-fluid debug">
             <div class="blue container-fluid debug">
-                blue container
+              <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                  Nuovo Studente +
+                </div>
+                <div class="col">
+                  <h2>Boolean</h2>
+                </div>
+                <div class="col">
+                  <div>Studenti online negli ultimi 30 minuti</div>
+                  <h2>125</h2>
+                </div>
+              </div>
             </div>
 
             <!-- Boolean webapp content  -->
@@ -83,7 +95,7 @@
 
                     <!-- Form -->
 
-                    <div class="col py-3">Form</div>
+                    <div class="col py-3">Tab</div>
 
 
                     <!-- FAQ -->
@@ -132,15 +144,17 @@
                 </div>
                 <div class="row row-cols-1">
 
-                    <!-- list todo -->
+                  <!-- list todo -->
 
-                    <div class="col py-3">
-                        
-                    </div>
+                  <div class="col py-3">
+                      
+                  </div>
 
-                    <!-- Graph -->
+                  <!-- Graph -->
 
-                    <div class="col py-3">graph</div>
+                  <div class="col py-3">
+                    
+                  </div>
                 </div>
             </section>
 

@@ -27,11 +27,12 @@ header {
     max-width: 100%;
 } */
 
+
 /* sidebar */
 
 .sidebar {
-    max-width: 150px;
-    height: calc(100vh - 100px);
+    
+    /* height: calc(100vh - 75px); */
     border: 1px dashed blue;
     background-image: url(img/sidebar-bg.png);
     background-color: var(--my-sidebar);
@@ -48,7 +49,7 @@ header {
 
 /* Content Navbar */
 .page-wrapper {
-    /* height: calc(100vh - 100px); */
+    height: calc(100vh - 75px);
     overflow: auto;
     width: 100%; 
 }
