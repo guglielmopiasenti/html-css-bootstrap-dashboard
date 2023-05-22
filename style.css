@@ -23,6 +23,9 @@ header {
     /* height: 100px; */
     border: 1px dashed green;
 }
+/* .my-search-bar {
+    max-width: 100%;
+} */
 
 /* sidebar */
 
@@ -34,14 +37,20 @@ header {
     background-color: var(--my-sidebar);
 }
 
+@media screen and (min-width: 992px) {
+    .sidebar {
+        flex-basis: 150px;
+    }
+    
+}
+
 /** Main content */
 
 /* Content Navbar */
 .page-wrapper {
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
     overflow: auto;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 
