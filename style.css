@@ -14,24 +14,9 @@
 
 /** Main CSS */
 
-
-/* Header */
-
-header {
-    
-    /* todo remove */
-    /* height: 100px; */
-    border: 1px dashed green;
-}
-/* .my-search-bar {
-    max-width: 100%;
-} */
-
-
 /* sidebar */
 
 .sidebar {
-    border: 1px dashed blue;
     background-image: url(img/sidebar-bg.png);
     background-color: var(--my-sidebar);
 }
@@ -75,12 +60,18 @@ header {
 .main-header {
     background-color: var(--my-mainh-bg);
 }
+
+
+.my-table  {
+
+}
+
 .col {
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
 }
 
 
-/* todo remove */
-.row {
-    border: 1px dashed red;
-}
+
+
+
+
