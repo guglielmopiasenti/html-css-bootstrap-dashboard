@@ -1,6 +1,6 @@
 /** CUSTOM PROPERTIES */
 :root {
-    --my-jumbo-bg: #3672E8;
+    --my-mainh-bg: #3672E8;
     --my-graph-c: #3E76D3;
     --my-sidebar: #041E34;
 }
@@ -31,8 +31,6 @@ header {
 /* sidebar */
 
 .sidebar {
-    
-    /* height: calc(100vh - 75px); */
     border: 1px dashed blue;
     background-image: url(img/sidebar-bg.png);
     background-color: var(--my-sidebar);
@@ -56,8 +54,9 @@ header {
 
 
 /* Boolean webapp content */
-.boolean-content {
 
+.main-header {
+    background-color: var(--my-mainh-bg);
 }
 .col {
     border: 1px dashed blue;
