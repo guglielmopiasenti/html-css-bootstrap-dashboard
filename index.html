@@ -15,15 +15,23 @@
 
 
     <header>
-        <nav class="navbar bg-body-light">
-            <div class="container-fluid">
+        <nav class="navbar bg-body-light ">
+            <div class="container-fluid justify-content-start gap-3">
               <a class="navbar-brand" href="#">
                 <img class="d-lg-none" src="img/mobile-logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
                 <img class="d-none d-lg-inline" src="img/logo.svg" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
               </a>
-              <form class="d-flex" role="search">
+              <form class="d-flex w-75" role="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                   <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                 </form>
+                <div class="nav-symbols d-flex gap-3">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-solid fa-bell" style="color: #f58f00;"></i>
+                </div>
+
             </div>
           </nav>
     </header>
@@ -70,9 +78,18 @@
 
 
             <section>
-                <div class="row row-cols-1">
-                    <div class="col">Form</div>
-                    <div class="col">
+
+                <div class="row row-cols-1 py-3">
+
+                    <!-- Form -->
+
+                    <div class="col py-3">Form</div>
+
+
+                    <!-- FAQ -->
+
+
+                    <div class="col py-3">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
@@ -114,8 +131,16 @@
                     </div>
                 </div>
                 <div class="row row-cols-1">
-                    <div class="col">todo</div>
-                    <div class="col">graph</div>
+
+                    <!-- list todo -->
+
+                    <div class="col py-3">
+                        
+                    </div>
+
+                    <!-- Graph -->
+
+                    <div class="col py-3">graph</div>
                 </div>
             </section>
 
