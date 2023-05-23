@@ -65,12 +65,18 @@
 .my-table  {
 
 }
-
+.img-tab {
+    height: 25px;
+}
 .col {
     /* border: 1px dashed blue; */
 }
 
+/* list todo */
 
+.my-list-group {
+    border-radius: 5px 5px 0 0;
+}
 
 
 
