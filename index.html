@@ -195,7 +195,7 @@
 
                 <div class="card px-0 my-3">
                   <div class="card-header ">
-                    <h2 class="px-1">F.A.Q</h2>
+                    <h3 class="px-1">F.A.Q</h3>
                   </div>
                   <div class="card-body">
                     <div class="col">
@@ -244,26 +244,29 @@
 
               <!-- list todo -->
 
-              <div class="col py-3">
-                  <div class="card">
-                  <div class="card-title p-2"> 
-                    <h2>TODO</h2>
-                  </div>
-                  <ul class="list-group my-list-group p-4">
-                    <li class="list-group-item">
-                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                      <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
-                    </li>
-                    <li class="list-group-item">
-                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                      <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75</label>
-                    </li>
-                    <li class="list-group-item">
-                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                      <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
-                    </li>
-                  </ul>
-                  </div> 
+              <div id="todo" class="card mt-4 px-0">
+                <div class="card-header">
+                  <h3 class="card-title">Todo</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <input class="form-check-input" type="checkbox" name="todoList[]" value="kickoff"
+                          id="firstCheckbox">
+                        <label class="form-check-label" for="firstCheckbox">Kickoff nuvoe classi</label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input" type="checkbox" name="todoList[]" value="lezione"
+                          id="secondCheckbox">
+                        <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75</label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input" type="checkbox" name="todoList[]" value="githubUsernames"
+                          id="thirdCheckbox">
+                        <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                      </li>
+                    </ul>
+                </div>
               </div>
   
                   <!-- Graph -->
