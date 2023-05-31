@@ -5,30 +5,26 @@
     --my-sidebar: #041E34;
 }
 
-
 .debug {
     border: 1px dashed red;
 }
 
-
-
 /** Main CSS */
-
-/* sidebar */
-
+/* Sidebar */
 .sidebar {
-    background-image: url(img/sidebar-bg.png);
     background-color: var(--my-sidebar);
+    background-image: url(img/sidebar-bg.png);
 }
+
 .my-search-bar {
-    background-color: rgb(229, 229, 229);
+    background-color: #e5e5e5;
     border: none;
     border-radius: 0 5px 5px 0;
     padding-left: 10px;
 }
 
 .my-input-group-text {
-    background-color: rgb(229, 229, 229);
+    background-color: #e5e5e5;
     border: none;
     border-radius: 5px 0 0 5px;
     padding: 0;
@@ -42,21 +38,17 @@
     .sidebar {
         flex-basis: 150px;
     }
-    
 }
 
 /** Main content */
-
 /* Content Navbar */
 .page-wrapper {
     height: calc(100vh - 75px);
     overflow: auto;
-    width: 100%; 
+    width: 100%;
 }
 
-
 /* Boolean webapp content */
-
 .main-header {
     background-color: var(--my-mainh-bg);
 }
@@ -68,7 +60,3 @@
 .my-list-group {
     border-radius: 5px 5px 0 0;
 }
-
-
-
-
